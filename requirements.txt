@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+streamlit
+networkx
+pydantic>=2
+python-dotenv
+httpx
+pytest

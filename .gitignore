@@ -1,0 +1,19 @@
+# Secrets - never commit
+.env
+*credentials*.json
+*service-account*.json
+*-key.json
+secrets/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local data
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.tmp
